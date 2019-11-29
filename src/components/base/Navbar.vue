@@ -1,10 +1,16 @@
 <template>
   <div class="navbar">
-    <img src="/images/logo2.png" alt="Logo" />
+    <router-link to="/" class="navbar-logo">
+      <img src="/images/logo2.png" alt="Logo"
+    /></router-link>
     <div class="navbar-links">
       <router-link to="/" exact active-class="hover-color">Home</router-link>
-      <router-link to="/experiences" exact active-class="hover-color">Experiences</router-link>
-      <router-link to="/gallery" exact active-class="hover-color">Gallery</router-link>
+      <router-link to="/experiences" exact active-class="hover-color"
+        >Experiences</router-link
+      >
+      <router-link to="/gallery" exact active-class="hover-color"
+        >Gallery</router-link
+      >
     </div>
   </div>
 </template>
@@ -37,6 +43,10 @@ export default {};
 
 img {
   width: 10rem;
+}
+
+.navbar-logo::after {
+  display: none;
 }
 
 a {

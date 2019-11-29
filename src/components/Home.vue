@@ -2,21 +2,26 @@
   <div class="home">
     <Header></Header>
     <div class="home-description" id="home-description">
-      <h3>OUR PENSION</h3>
-      <p>One magical Tea Island. Three extraordinary resorts from tea fields to clifftop beach & safari lodge.</p>
+      <h3>OUR PLACE</h3>
+      <p>
+        Reward yourself with a breath of fresh air, breathtaking views and
+        excellent accomodation.
+      </p>
     </div>
     <Card
       routerLink="/gallery"
       placeRight="false"
       title="Gallery"
-      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus metus, convallis in dapibus non, aliquam eu libero. Donec viverra sodales diam eu porta. Sed ligula metus, vulputate eu placerat sit amet, dapibus id lectus. Sed ex nisl, lacinia non ante sit amet, gravida interdum felis. Duis non erat et ipsum accumsan dictum. In posuere."
+      text="Enjoy your stay in our freshly decorated rooms. Private balcony, sparkling clean bathroom, toiletries all at your service.
+You can sunbathe or just enjoy the alluring scenary and sound of the river from our wood deck. "
       imageLink="images/gallery/gallery-2.jpg"
     ></Card>
     <Card
       routerLink="/experiences"
       placeRight="true"
       title="Experiences"
-      text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lacus metus, convallis in dapibus non, aliquam eu libero. Donec viverra sodales diam eu porta. Sed ligula metus, vulputate eu placerat sit amet, dapibus id lectus. Sed ex nisl, lacinia non ante sit amet, gravida interdum felis. Duis non erat et ipsum accumsan dictum. In posuere."
+      text="There are plenty of things to do while you're away. Hiking, sightseeing, yachting, clubbing are all activities close to our place.
+ Decebal's stone sculpture, two awesome caves and an ancient bridge can all be seen while enjoying the feeling of the largest river in Europe by boat ride."
       imageLink="images/hiking.jpg"
     ></Card>
     <InstagramPanel></InstagramPanel>
@@ -31,7 +36,7 @@ import InstagramPanel from "./Home/InstagramPanel";
 export default {
   components: { Header, Card, InstagramPanel }
 };
-</script> 
+</script>
 
 <style scoped>
 .home-description {

@@ -1,6 +1,10 @@
 <template>
-  <div class="card" :style="{ backgroundImage: 'url(' + imageLink +')' }">
-    <div v-if="placeRight" class="text-panel" :class="placeRight == 'true' ? 'right' : 'left' ">
+  <div class="card" :style="{ backgroundImage: 'url(' + imageLink + ')' }">
+    <div
+      v-if="placeRight"
+      class="text-panel"
+      :class="placeRight == 'true' ? 'right' : 'left'"
+    >
       <h2>{{ title }}</h2>
       <p>{{ text }}</p>
       <router-link :to="routerLink">Explore</router-link>
@@ -23,10 +27,10 @@ export default {
 <style scoped>
 .card {
   position: relative;
-  height: 45rem;
+  height: 42rem;
   background-size: cover;
   background-position: center;
-  margin-bottom: 1.5rem;
+  margin-bottom: 2rem;
 }
 .text-panel {
   position: absolute;

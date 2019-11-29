@@ -1,6 +1,10 @@
 <template>
   <div class="exp-card-main">
-    <img :class="placeLeft == 'true' ? 'left' : none" :src="experienceImage" alt="ExperiencesPhoto" />
+    <img
+      :class="placeLeft == 'true' ? 'left' : none"
+      :src="experienceImage"
+      alt="ExperiencesPhoto"
+    />
     <div class="exp-card-text-panel">
       <h2>{{ title }}</h2>
       <p>{{ text }}</p>
@@ -21,8 +25,8 @@ export default {
 
 <style scoped>
 .exp-card-main {
-  display: flex;
-  flex-direction: row;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
 
   margin: 0 1rem 3rem 1rem;
 }
@@ -56,6 +60,13 @@ h2 {
   letter-spacing: 0.2rem;
 }
 
+@media only screen and (max-width: 2000px) {
+  img {
+    width: 75rem;
+    height: 45rem;
+  }
+}
+
 @media only screen and (max-width: 1500px) {
   img {
     width: 65rem;
@@ -65,7 +76,8 @@ h2 {
 
 @media only screen and (max-width: 830px) {
   .exp-card-main {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    justify-items: center;
     align-items: center;
   }
 
