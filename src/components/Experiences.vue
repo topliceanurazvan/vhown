@@ -2,34 +2,32 @@
   <div class="experiences-main">
     <h1>Discover things to do in Dubova</h1>
     <p>
-      Wild Coast Lodge redefines “safari” as a holistic wilderness experience.
-      We are blessed with diverse habitat, ecology and scenery across the five
-      sectors of the Yala National Park Complex and Bundala National Park which
-      is a Ramsar Wetland. We aspire to showcase the entire spectrum of nature –
-      while leopards play a leading role in our theatre of the wild, they are
-      not the only actor on our stage – from our geology, botanical diversity,
-      critters, mammals, birds and reptiles. But that’s just part of the story.
-      Steeped in the jungles of our surrounding national parks are remnants of
-      civilisations past, and ancient jungle monasteries, archaeological sites
-      and places of worship that date back to mythical eras of the gods.
+      There are numerous activities to be done while you are here! You can
+      kickstart your morning with a delightful view on top of M. Almajului, so
+      take your hiking outfit with you.In the afternoon, a boat ride is
+      recommended. The impressive rock sculpture of the last king of Dacia,
+      Decebalus is within reach. Afterwards you can visit two caves Ponicova and
+      Veterani. End your day with some cocktails or even clubbing right next to
+      our place. You can party at 20 meters away from home or just enjoy our
+      comfy beds and cable TV.
     </p>
     <ExpCard
       placeLeft="false"
       experienceImage="/images/experiences/decebal.jpg"
       title="Sightseeing"
-      text="Kataragama is a temple complex dedicated to Buddhist guardian deity “Kataragama deviyo” and Hindu War God Kathirkamam. It is one of the few religious sites in Sri Lanka that is venerated by Buddhists, Hindus, Muslims and the Vedda people."
+      text="Once on the territory of Dacia and afterwards the land of Roman Empire, there are multiple historical rich things to see around Dubova. Decebal's stone sculpture, 2 caves and Tabula Traiana, a memorial plaque made for the late roman emperor Traian."
     ></ExpCard>
     <ExpCard
       placeLeft="true"
       experienceImage="/images/experiences/yachting.jpg"
-      title="Yachting"
-      text="Kataragama is a temple complex dedicated to Buddhist guardian deity “Kataragama deviyo” and Hindu War God Kathirkamam. It is one of the few religious sites in Sri Lanka that is venerated by Buddhists, Hindus, Muslims and the Vedda people."
+      title="Boat rides"
+      text="Danube's Big Boilers are a mixture of legendary and beauty. It cannot be a trip to Dubova without enjoying this kind of attraction without a boat ride. Passing through the narrow banks of the river will make you understand why people feel like the water is boiling."
     ></ExpCard>
     <ExpCard
       placeLeft="false"
-      experienceImage="/images/experiences/hiking1.jpg"
+      experienceImage="/images/experiences/hiking.jpg"
       title="Hiking"
-      text="Taking the art of wilderness dining to a new level, our high-tea experience in the jungle is truly special. Our team will pick a beautiful spot near a river, by a waterhole or with a scenic vista."
+      text="Put your blood in motion in order to have one of the most breathtaking views in this area. Apart from the health benefits, this 2 hours hike will provide some extraordinary photographic opportunites."
     ></ExpCard>
     <ExpCard
       placeLeft="true"

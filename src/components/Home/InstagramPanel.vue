@@ -79,5 +79,9 @@ h3 {
   .insta-panel-photos {
     grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
   }
+
+  .insta-panel-main {
+    margin-top: 23rem;
+  }
 }
 </style>

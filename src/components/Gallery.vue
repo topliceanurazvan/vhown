@@ -1,10 +1,7 @@
 <template>
   <div class="gallery-main">
     <h1>Gallery</h1>
-    <p>
-      One magical Tea Island. Three extraordinary resorts from tea fields to
-      clifftop beach & safari lodge.
-    </p>
+
     <div class="gallery-photos">
       <img v-for="image in gallery_images" :src="image.src" alt :key="image" />
     </div>
